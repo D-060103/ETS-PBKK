@@ -195,3 +195,36 @@ E:\KULIAH\SEMESTER 6\PBKK\ETS-PBKK-D-2023\obj\Debug\CurrencyConverter.csproj.Cor
 E:\KULIAH\SEMESTER 6\PBKK\ETS-PBKK-D-2023\obj\Debug\CurrencyConverter.csproj.CopyComplete
 E:\KULIAH\SEMESTER 6\PBKK\ETS-PBKK-D-2023\obj\Debug\CurrencyConverter.exe
 E:\KULIAH\SEMESTER 6\PBKK\ETS-PBKK-D-2023\obj\Debug\CurrencyConverter.pdb
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\CurrencyConverter.exe.config
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\CurrencyConverter.exe
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\CurrencyConverter.pdb
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\Newtonsoft.Json.dll
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\RestSharp.dll
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\System.Buffers.dll
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\System.Memory.dll
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\System.Numerics.Vectors.dll
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\System.Text.Encodings.Web.dll
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\System.Text.Json.dll
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\System.ValueTuple.dll
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\Newtonsoft.Json.xml
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\RestSharp.xml
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\System.Buffers.xml
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\System.Memory.xml
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\System.Numerics.Vectors.xml
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\System.Text.Encodings.Web.xml
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\System.Text.Json.xml
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\bin\Debug\System.ValueTuple.xml
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\obj\Debug\CurrencyConverter.csproj.AssemblyReference.cache
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\obj\Debug\CurrencyConverter.MainForm.resources
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\obj\Debug\CurrencyConverter.Properties.Resources.resources
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\obj\Debug\CurrencyConverter.csproj.GenerateResource.cache
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\obj\Debug\CurrencyConverter.csproj.CoreCompileInputs.cache
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\obj\Debug\CurrencyConverter.csproj.CopyComplete
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\obj\Debug\CurrencyConverter.exe
+E:\KULIAH\SEMESTER 6\PBKK\ETS PBKK\obj\Debug\CurrencyConverter.pdb
