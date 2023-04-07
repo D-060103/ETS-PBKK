@@ -34,35 +34,40 @@
             this.cmbFromCurrency = new System.Windows.Forms.ComboBox();
             this.cmbToCurrency = new System.Windows.Forms.ComboBox();
             this.btnConvert = new System.Windows.Forms.Button();
-            this.lblFromCuurency = new System.Windows.Forms.Label();
-            this.lblToCurrency = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtFromCurrency
             // 
+            this.txtFromCurrency.BackColor = System.Drawing.Color.Silver;
             this.txtFromCurrency.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFromCurrency.Location = new System.Drawing.Point(383, 141);
+            this.txtFromCurrency.Location = new System.Drawing.Point(241, 127);
             this.txtFromCurrency.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtFromCurrency.Name = "txtFromCurrency";
-            this.txtFromCurrency.Size = new System.Drawing.Size(137, 32);
+            this.txtFromCurrency.Size = new System.Drawing.Size(174, 32);
             this.txtFromCurrency.TabIndex = 0;
+            this.txtFromCurrency.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtToCurrency
             // 
+            this.txtToCurrency.BackColor = System.Drawing.Color.Silver;
             this.txtToCurrency.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtToCurrency.Location = new System.Drawing.Point(383, 270);
+            this.txtToCurrency.Location = new System.Drawing.Point(241, 271);
             this.txtToCurrency.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtToCurrency.Name = "txtToCurrency";
-            this.txtToCurrency.Size = new System.Drawing.Size(133, 32);
+            this.txtToCurrency.Size = new System.Drawing.Size(174, 32);
             this.txtToCurrency.TabIndex = 1;
+            this.txtToCurrency.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // cmbFromCurrency
             // 
+            this.cmbFromCurrency.BackColor = System.Drawing.Color.Silver;
             this.cmbFromCurrency.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbFromCurrency.FormattingEnabled = true;
-            this.cmbFromCurrency.Location = new System.Drawing.Point(553, 141);
+            this.cmbFromCurrency.Location = new System.Drawing.Point(241, 174);
             this.cmbFromCurrency.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbFromCurrency.Name = "cmbFromCurrency";
             this.cmbFromCurrency.Size = new System.Drawing.Size(333, 30);
@@ -70,80 +75,87 @@
             // 
             // cmbToCurrency
             // 
+            this.cmbToCurrency.BackColor = System.Drawing.Color.Silver;
             this.cmbToCurrency.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbToCurrency.FormattingEnabled = true;
-            this.cmbToCurrency.Location = new System.Drawing.Point(553, 270);
+            this.cmbToCurrency.Location = new System.Drawing.Point(241, 221);
             this.cmbToCurrency.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbToCurrency.Name = "cmbToCurrency";
-            this.cmbToCurrency.Size = new System.Drawing.Size(288, 30);
+            this.cmbToCurrency.Size = new System.Drawing.Size(333, 30);
             this.cmbToCurrency.TabIndex = 3;
             // 
             // btnConvert
             // 
-            this.btnConvert.Font = new System.Drawing.Font("Century Gothic", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConvert.Location = new System.Drawing.Point(525, 318);
+            this.btnConvert.BackColor = System.Drawing.Color.LightGray;
+            this.btnConvert.Font = new System.Drawing.Font("Kristen ITC", 17.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConvert.Location = new System.Drawing.Point(16, 271);
             this.btnConvert.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnConvert.Name = "btnConvert";
-            this.btnConvert.Size = new System.Drawing.Size(121, 40);
+            this.btnConvert.Size = new System.Drawing.Size(186, 40);
             this.btnConvert.TabIndex = 4;
             this.btnConvert.Text = "Convert";
-            this.btnConvert.UseVisualStyleBackColor = true;
+            this.btnConvert.UseVisualStyleBackColor = false;
             this.btnConvert.Click += new System.EventHandler(this.btnConvert_Click);
             // 
-            // lblFromCuurency
+            // textBox1
             // 
-            this.lblFromCuurency.AutoSize = true;
-            this.lblFromCuurency.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFromCuurency.Location = new System.Drawing.Point(639, 86);
-            this.lblFromCuurency.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblFromCuurency.Name = "lblFromCuurency";
-            this.lblFromCuurency.Size = new System.Drawing.Size(176, 24);
-            this.lblFromCuurency.TabIndex = 5;
-            this.lblFromCuurency.Text = "From (Currency)";
-            // 
-            // lblToCurrency
-            // 
-            this.lblToCurrency.AutoSize = true;
-            this.lblToCurrency.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblToCurrency.Location = new System.Drawing.Point(639, 231);
-            this.lblToCurrency.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblToCurrency.Name = "lblToCurrency";
-            this.lblToCurrency.Size = new System.Drawing.Size(147, 24);
-            this.lblToCurrency.TabIndex = 6;
-            this.lblToCurrency.Text = "To (Currency)";
+            this.textBox1.BackColor = System.Drawing.Color.Black;
+            this.textBox1.Font = new System.Drawing.Font("Curlz MT", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.Silver;
+            this.textBox1.Location = new System.Drawing.Point(101, 11);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(578, 52);
+            this.textBox1.TabIndex = 7;
+            this.textBox1.Text = "Welcome to Currency Converter";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(392, 86);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.BackColor = System.Drawing.Color.Gray;
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(12, 134);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 24);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Amount";
+            this.label1.Size = new System.Drawing.Size(190, 24);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Amount of Money";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(392, 231);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.BackColor = System.Drawing.Color.Gray;
+            this.label2.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(12, 180);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 24);
+            this.label2.Size = new System.Drawing.Size(190, 24);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Amount";
+            this.label2.Text = "Current Currency\r\n";
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.Gray;
+            this.label3.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(12, 227);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(190, 24);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Destination Currency";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1141, 386);
+            this.ClientSize = new System.Drawing.Size(767, 345);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblToCurrency);
-            this.Controls.Add(this.lblFromCuurency);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnConvert);
             this.Controls.Add(this.cmbToCurrency);
             this.Controls.Add(this.cmbFromCurrency);
@@ -151,7 +163,8 @@
             this.Controls.Add(this.txtFromCurrency);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MainForm";
-            this.Text = "ETS PBKK D 2023 - Money Conversion";
+            this.Text = "Konversi Mata Uang";
+            this.TransparencyKey = System.Drawing.Color.PapayaWhip;
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -165,10 +178,10 @@
         private System.Windows.Forms.ComboBox cmbFromCurrency;
         private System.Windows.Forms.ComboBox cmbToCurrency;
         private System.Windows.Forms.Button btnConvert;
-        private System.Windows.Forms.Label lblFromCuurency;
-        private System.Windows.Forms.Label lblToCurrency;
+        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 
